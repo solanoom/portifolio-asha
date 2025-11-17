@@ -1,0 +1,154 @@
+:root {
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  line-height: 1.6;
+  color: #1a3d64;
+  background-color: #f9f8f6;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: #f9f8f6;
+  color: #1a3d64;
+}
+
+body,
+p {
+  font-family: "Helvetica Neue", Arial, sans-serif;
+}
+
+header {
+  padding: 3rem 1.5rem;
+  text-align: center;
+  background-color: #1a3d64;
+  color: #f9f8f6;
+}
+
+header .eyebrow {
+  letter-spacing: 0.35em;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  margin-bottom: 0.75rem;
+  color: rgba(249, 248, 246, 0.8);
+  display: inline-block;
+}
+
+header h1 {
+  font-size: 3.5rem;
+  margin: 0.2rem 0;
+  font-weight: 700;
+}
+
+header h2 {
+  font-size: 1.4rem;
+  margin: 0.25rem 0 1rem;
+  font-weight: 500;
+  color: rgba(249, 248, 246, 0.9);
+}
+
+header .tagline {
+  font-size: 1.1rem;
+  margin-top: 0.5rem;
+  color: rgba(249, 248, 246, 0.85);
+}
+
+main {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 2.5rem 1.5rem 3rem;
+}
+
+.section-card {
+  background-color: #f9f8f6;
+  border-radius: 16px;
+  padding: 2rem;
+  border: 1px solid rgba(26, 61, 100, 0.1);
+  box-shadow: 0 12px 30px rgba(26, 61, 100, 0.1);
+  margin-bottom: 2rem;
+}
+
+h2 {
+  margin-top: 0;
+  font-size: 1.8rem;
+  color: #1a3d64;
+}
+
+.card-list {
+  list-style: none;
+  padding: 0;
+  margin: 1.5rem 0 0;
+  display: grid;
+  gap: 1.25rem;
+}
+
+.card-list li {
+  padding: 1.25rem 1.5rem;
+  border-radius: 12px;
+  background-color: rgba(26, 61, 100, 0.05);
+  border: 1px solid rgba(26, 61, 100, 0.08);
+}
+
+.card-list h3 {
+  margin: 0 0 0.35rem;
+  font-size: 1.2rem;
+}
+
+.card-list p {
+  margin: 0;
+  color: rgba(26, 61, 100, 0.8);
+}
+
+.hobby-list {
+  list-style: none;
+  padding: 0;
+  margin: 1.5rem 0 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.hobby-list li {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.9rem 1.1rem;
+  border-radius: 10px;
+  background-color: rgba(26, 61, 100, 0.04);
+  border: 1px solid rgba(26, 61, 100, 0.08);
+}
+
+.hobby-list .icon {
+  font-size: 1.2rem;
+}
+
+footer {
+  text-align: center;
+  padding: 2rem 1.5rem 3rem;
+  color: #1a3d64;
+  font-size: 0.9rem;
+}
+
+@media (max-width: 640px) {
+  header {
+    padding: 2.5rem 1rem;
+  }
+
+  header h1 {
+    font-size: 2.6rem;
+  }
+
+  main {
+    padding: 2rem 1.25rem;
+  }
+
+  .section-card {
+    padding: 1.5rem;
+  }
+
+  .card-list li {
+    padding: 1rem 1.25rem;
+  }
+}
